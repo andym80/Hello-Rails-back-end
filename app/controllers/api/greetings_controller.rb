@@ -1,7 +1,8 @@
 module Api
   class GreetingsController < ApplicationController
     def index
-      render json: { message: 'Hello World' }
+      message = Greeting.all.sample
+      render json: message
     end
   end
 end
