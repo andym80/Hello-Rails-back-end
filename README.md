@@ -1,105 +1,247 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Hello-Rails-Back-End
+<div align="center">
 
-> Implement a connection between a Ruby on Rails back-end and React front-end.
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Blog App</b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+# 📖 [hello-react-front-end] <a name="about-project"></a>
+
+> This is a hello react app created to nest within a Rails ap through API
 
 
-## Built With
+**[hello-react-front-end]** is a...
 
-- Ruby on Rails
-- Postgres SQL
-## Live Demo (if available)
+## 🛠 Built With <a name="built-with"></a>
 
-[Not Available](https://livedemo.com)
+> List the major frameworks that you built your project using.
+
+- [Ruby on rails](https://rubyonrails.org/)
+- [React.js](https://reactjs.org/)
+- [PostgreSQL](https://www.postgresql.org/)
 
 
-## Getting Started
+### Tech Stack <a name="tech-stack"></a>
+
+> Ruby on rails
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Rails 7</a></li>
+  </ul>
+</details>
+
+<details>
+	<summary>Client</summary>
+	<ul>
+		<li><a href="https://reactjs.org/">React.js</a></li>
+	</ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[]**
+- **[]**
+- **[]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running follow these simple example steps.
 
+
 ### Prerequisites
 
-- You should have ruby installed in your machine, you can follow the steps given by the [official documentation](https://www.ruby-lang.org/en/documentation/installation/).
+In order to run this project you need:
 
-- You should have a postgres user with superuser permissions. you can refer to the official [postgres documentation](https://www.postgresql.org/docs/current/role-attributes.html#:~:text=To%20create%20a%20new%20database,that%20is%20already%20a%20superuser.&text=A%20role%20must%20be%20explicitly,use%20CREATE%20ROLE%20name%20CREATEDB%20.) to create or update a role.
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Rails](https://rubyonrails.org/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
+- [VSCode](https://code.visualstudio.com/)
+
+### Install Ruby
+
+To install Ruby, follow the instructions on the [official website](https://www.ruby-lang.org/en/documentation/installation/).
+
+### Install Rails
+
+To install Rails, run the following command in your terminal:
+
+
+```sh
+ gem install rails
+
+```
 
 ### Setup
 
-First, you must clone this repository locally running this command:
+Clone this repository to your desired folder:
 
-```
-git clone git@github.com:andym80/Hello-Rails-back-end.git
-```
 
-and navigate to the cloned directory:
 
-```
-cd Hello-Rails-back-end
+```sh
+  cd my-folder
+  git clone git@github.com:andym80/hello-react-front-end.git
 ```
 
 ### Install
 
-Once inside the project directory, you should install all project dependencies:
+Install this project with:
 
-- Install bundler:
 
-```
-gem install bundler
-```
-
-- Install project dependencies
-
-```
-bundle install
+```sh
+  cd hello-react-front-end
+  gem install
 ```
 
 ### Usage
 
-You can get the app running locally by opening a local server:
+To run the project, execute the following command:
 
+
+```sh
+  rails server
 ```
-bin/rails server
-```
-Then you also have to clone and run the server of [Hello-React-front-end](https://github.com/andym80/hello-react-front-end) repository to get the expect result.
 
 ### Run tests
 
-If you're on a linux-based system, you could run the executable file to run all specs:
+To run tests, run the following command:
 
-```
-bin/rspec
-```
 
-Windows users have to specify ruby in this case:
-
-```
-ruby bin/rspec
+```sh
+	rspec
 ```
 
-## Authors
 
-👤 **Andres Menutti**
 
-- GitHub: [@andym80](https://github.com/andym80)
-- LinkedIn: [Andres-Menutti](https://linkedin.com/in/andres-menutti)
+### Deployment
 
-## 🤝 Contributing
+You can deploy this project using:
+
+- [Heroku](https://www.heroku.com/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
+
+
+👤 **Andy Menutti**
+
+- GitHub: [@andym80](hhttps://github.com/andym80)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[devise athorization]**
+- [ ] **[add post comment ]**
+- [ ] **[animate incoming post]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+> Write a message to encourage readers to support your project
 
-## 📝 License
+If you like this project...
 
-This project is [MIT](./MIT.md) licensed.![](https://img.shields.io/badge/Microverse-blueviolet)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
