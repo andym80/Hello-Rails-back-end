@@ -61,7 +61,7 @@ You can get the app running locally by opening a local server:
 ```
 bin/rails server
 ```
-Then you also have to clone and run the server of [Hello-React-front-end](https://github.com/andym80/Hello-React-front-end) repository to get the expect result.
+Then you also have to clone and run the server of [Hello-React-front-end](https://github.com/andym80/hello-react-front-end) repository to get the expect result.
 
 ### Run tests
 
