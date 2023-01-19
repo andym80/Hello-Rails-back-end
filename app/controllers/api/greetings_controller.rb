@@ -1,10 +1,8 @@
-# frozen_string_literal: true
-
+# this is the controller for Api
 module Api
   class GreetingsController < ApplicationController
     def index
-      @greetings = Greeting.all.sample
-      render json: @greetings
+      render json: { message: 'Hello World' }
     end
   end
 end
