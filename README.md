@@ -133,7 +133,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:andym80/hello-react-front-end.git
+  git clone git@github.com:andym80/Hello-Rails-back-end.git
 ```
 
 ### Install
@@ -167,7 +167,8 @@ To run tests, run the following command:
 ### React Front End Link Repository
 
 ```
-https://github.com/andym80/hello-react-front-end
+https://github.com/andym80/hello-react-front-end  cd my-folder
+  git clone git@github.com:andym80/hello-react-front-end.git
 ```
 ### Deployment
 
